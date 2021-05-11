@@ -20,19 +20,19 @@ The CFO of your firm has requested a report to help analyze potential fraudulent
   * What are the top 100 highest transactions made between 7:00 am and 9:00 am?
 
   * Do you see any anomalous transactions that could be fraudulent?
-      **The top 9 out 100 are suscipicous as they are whole numbers with no decimals versus all others are smaller and include cents**
+      **The top 9 out of 100 are suscipicous as they are whole numbers with no cents and they are much larger amounts then the rest.**
 
   * Is there a higher number of fraudulent transactions made during this time frame versus the rest of the day?
-      **Assuming all numbers that don't include cents are fraudulent, then there are 110 fraudulent transactions. Therefore, the 9 that occur betwee 7am and 9am are not the majority of transactions**
+      **Assuming all numbers that don't include cents are fraudulent, then there are 110 fraudulent transactions. Therefore, the 9 that occur between 7am and 9am are not the majority of transactions**
 
   * If you answered yes to the previous question, explain why you think there might be fraudulent transactions during this time frame.
 
 * What are the top 5 merchants prone to being hacked using small transactions?
-    **TOP 5 Merchants Prone to Being Hacked are Wood-Ramirez, Hood-Philips, Baker Inc. & McDaniel, Hines and Mcfarland**
+    **The top 5 merchants prone to being hacked are Wood-Ramirez, Hood-Philips, Baker Inc. & McDaniel, Hines and Mcfarland**
 
 * Create a view for each of your queries.
 
-    **See db_views.sql file**
+    **Please see 'db_views.sql' file**
 
 #### Part 2:
 
@@ -52,7 +52,7 @@ Your CFO has also requested detailed trends data on specific card holders. Use t
   
   * Are there any outliers for cardholder ID 25? How many outliers are there per month?
 
-    **Yes, there are 9 outliers that. On average there are 1.5 outliers per month**
+    **Yes, there are 9 outliers that are much larger amounts. On average there are 1.5 outliers per month.**
 
 
     
